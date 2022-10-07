@@ -70,7 +70,7 @@ jobs:
       run: |
         artifactName=$(ls *.jar | head -1)
         mvn deploy -DmuleDeploy \
-         -Dmule.artifact="hdfcdemorajeev" \
+         -Dmule.artifact="$artifactName \
          -Danypoint.username="rajeevhdfcdemo" \
          -Danypoint.password="Hdfcdemo@123" \
          -Denv=Sandbox \

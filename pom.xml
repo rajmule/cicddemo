@@ -1,22 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-
 	<groupId>com.mycompany</groupId>
-	<artifactId>hellomule</artifactId>
+	<artifactId>hdfc-ltd-mule-cicd-demo</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>mule-application</packaging>
-
 	<name>hellomule</name>
-
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<app.name>hellomule</app.name>
+		<app.name>hdfc-ltd-mule-cicd-demo</app.name>
 		<app.runtime>4.4.0-20220221</app.runtime>
 		<mule.maven.plugin.version>3.5.4</mule.maven.plugin.version>
 	</properties>
-
 	<build>
 		<plugins>
 			<plugin>
@@ -50,7 +46,6 @@
 			</plugin>
 		</plugins>
 	</build>
-
 	<dependencies>
 		<dependency>
 			<groupId>org.mule.connectors</groupId>
@@ -65,7 +60,6 @@
 			<classifier>mule-plugin</classifier>
 		</dependency>
 	</dependencies>
-
 	<repositories>
 		<repository>
 			<id>anypoint-exchange-v3</id>
@@ -80,7 +74,6 @@
 			<layout>default</layout>
 		</repository>
 	</repositories>
-
 	<pluginRepositories>
 		<pluginRepository>
 			<id>mulesoft-releases</id>

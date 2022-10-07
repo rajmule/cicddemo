@@ -72,5 +72,5 @@ jobs:
         mvn deploy -DmuleDeploy \
          -Dmule.artifact=$artifactName \
          -Danypoint.username="rajeevhdfcdemo" \
-         -Danypoint.password="$Hdfcdemo@123" \
+         -Danypoint.password="Hdfcdemo@123" \
          -DskipTests

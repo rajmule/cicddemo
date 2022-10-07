@@ -73,4 +73,5 @@ jobs:
          -Dmule.artifact=$artifactName \
          -Danypoint.username="rajeevhdfcdemo" \
          -Danypoint.password="Hdfcdemo@123" \
-         -DskipTests
+         -DskipTests \
+         -X
